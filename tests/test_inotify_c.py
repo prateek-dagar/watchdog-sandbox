@@ -400,3 +400,4 @@ def test_select_fd(helper: Helper, p: P, event_queue: TestEventQueue, start_watc
                 inotify_fd.stop()
                 inotify_fd.join(5)
                 assert not inotify_fd.is_alive()
+# test inotify filter trigger
