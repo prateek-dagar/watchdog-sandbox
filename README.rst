@@ -352,3 +352,5 @@ to do:
    :target: https://github.com/gorakhargosh/watchdog/blob/master/LICENSE
 .. |Patreon| image:: https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white
    :target: https://www.patreon.com/mschoentgen
+
+.. test docs trigger
