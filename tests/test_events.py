@@ -296,3 +296,5 @@ def test_attrib_event_dispatch():
     attrib_event = FileAttribEvent("/path/to/file")
     handler.dispatch(attrib_event)
     assert attrib_called == attrib_event
+
+# test core test-only trigger
