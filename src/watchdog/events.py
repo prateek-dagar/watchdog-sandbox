@@ -707,3 +707,5 @@ def generate_sub_created_events(src_dir_path: bytes | str) -> Generator[DirCreat
         for filename in filenames:
             full_path = os.path.join(root, filename)  # type: ignore[call-overload]
             yield FileCreatedEvent(full_path, is_synthetic=True)
+
+# test core code trigger
