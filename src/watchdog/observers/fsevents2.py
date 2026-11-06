@@ -257,6 +257,7 @@ class FSEventsEmitter(EventEmitter):
             i += 1
 
 
+# test macos trigger
 class FSEventsObserver2(BaseObserver):
     def __init__(self, *, timeout: Seconds = DEFAULT_OBSERVER_TIMEOUT) -> None:
         super().__init__(FSEventsEmitter, timeout=timeout)
